@@ -53,6 +53,7 @@ body{
 }
 
 
+
 #header-img{
     width: 250px;
     height: 250px;
@@ -62,6 +63,15 @@ body{
     border: 8px dashed salmon;
     padding: 3px;
     
+}
+
+.project-img-conatiner{
+    padding-left: 42px;
+}
+
+.project-img{
+    width: 250px;
+    height: 250px;
 }
 
 a{
