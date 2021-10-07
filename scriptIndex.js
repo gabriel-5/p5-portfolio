@@ -2,7 +2,7 @@ let gridContainer = document.querySelector("#grid-container");
 
 let material = "brick"
 
-let cellAmount = 48;
+let cellAmount = 100;
 let cellSize = 520 / cellAmount;
 
 
@@ -23,7 +23,7 @@ function gameSetup(n) {
     let cells = document.querySelectorAll(".cell");
     cells.forEach(c => {
         c.addEventListener("mouseover", () => {
-            c.classList.add("brick");
+            c.classList.add("cover");
         }
         )
     })

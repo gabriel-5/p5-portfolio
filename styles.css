@@ -19,7 +19,7 @@ body{
     width: 250px;
     border-radius: 50%;
     border: 1px solid salmon;
-    position: fixed;
+    /* position: fixed; */
     
 }
 
@@ -36,7 +36,8 @@ body{
     margin: 0;
     margin-left: 30px;
     padding-top: 30px;
-    position: fixed;
+    width: 110px
+    /* position: fixed; */
 
 }
 
@@ -46,18 +47,15 @@ body{
 
 #index-title{
     margin-top: 70px;
-    margin-left: 500px;
+    /* margin-left: 500px; */
     position: absolute;
     color: #ffff00;
 }
 
-.nav-links-rose {
-    list-style-type: none;
-    margin: 0;
 
-    padding-top: 30px;
-    position: fixed;
-
+#header-img{
+    width: 250px;
+    height: 250px;
 }
 
 .nav-items{
@@ -98,9 +96,9 @@ a:hover{
     background:rgb(243, 128, 128)
 }
 
-/* .cell{
+ /* .cell{
     border-radius: 23%;
-} */
+}  */
 
 .project-title{
     padding-top: 30px;
