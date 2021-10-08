@@ -52,6 +52,10 @@ body{
     color: #ffff00;
 }
 
+#name{
+    color:#ffff00;
+    position: absolute;
+}
 
 
 #header-img{
